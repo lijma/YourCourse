@@ -1,0 +1,17 @@
+{
+    "id": "zhuige-scoremall",
+    "name": "WeTalk",
+    "version": "1.0.2",
+    "description": "We Talk, We Grow",
+    "keywords": [
+        "演讲",
+        "工具"
+    ],
+    "dependencies": {
+        "cl-uni": "^1.8.8"
+    },
+    "displayName": "WeTalk演讲小助手",
+    "engines": {
+        "HBuilderX": "^3.3.5"
+    }
+}

@@ -1,0 +1,1 @@
+alter table wetalk_site add column detail varchar;

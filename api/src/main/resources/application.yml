@@ -1,0 +1,37 @@
+logging:
+  level:
+    root: INFO
+    org.springframework.web: ERROR
+    com.mf: INFO
+
+spring:
+  jackson:
+    time-zone: Asia/Shanghai
+  profiles:
+    active: ${ACTIVE_PROFILE:prod}
+  application:
+    name: openapi
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+  task:
+    execution:
+      pool:
+        core-size: 4
+        max-size: 8
+
+mybatis-plus:
+  mapper-locations: classpath:db/mapper/*.xml
+
+feign:
+  client:
+    config:
+      feignName:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: full
+

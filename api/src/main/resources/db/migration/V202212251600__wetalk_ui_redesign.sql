@@ -1,0 +1,1 @@
+alter table wetalk_activity add column img varchar;

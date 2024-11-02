@@ -1,0 +1,24 @@
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5532/wetalk?autoReconnect=true&useSSL=false
+    username: test
+    password: test
+
+wetalk:
+  auth:
+    secret: <replace_me>
+    issuer: https://wetalk.cn
+    expire_day: 30
+  oss:
+    bucket_name: <replace_me>
+    region: <replace_me>
+    secret_id: <replace_me>
+    secret_key: <replace_me>
+    path: <replace_me>
+  wechat:
+    app_id: <replace_me>
+    app_secret: <replace_me>
+
+server:
+  port: 8081
