@@ -116,9 +116,4 @@ docker-compose up -d
 ```shell
 ./gradlew clean build
 ACTIVE_PROFILE=local ./gradlew bootRun
-```
-
-### 联系我
-
-不仅仅是技术，More than tech
-![alt text](docs/image.png)
+``
