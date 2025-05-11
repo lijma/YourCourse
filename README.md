@@ -1,19 +1,20 @@
 # YourCourse
 
+OpenSource Activity|Course Management Mini Program Application
 开源的活动报名，课程报名微信小程序
 
 ## 项目演示
 
-### 快速预览
+### 快速预览 / Overview
 
 ![alt text](docs/intro.png)
 
-### 线上体验地址
+### 线上体验地址 / Online Demo
 
 ![alt text](docs/qr.png)
 
 
-## 版本更新历史
+## 版本更新历史 / Release Logs
 
 ## 1.0
 
@@ -41,21 +42,21 @@
 * 联系我们 | 在线客服  
 
 
-## 部署架构
+## 部署架构 / Deployment Architecture
 
 * 前端：微信小程序 
 * 后端：JAVA SprintBoot
 * 数据库： postgres
 
 
-## 技术栈
+## 技术栈 / Tech Stack
 
-### 前端
+### 前端 / Frontend
 
 * hbuilder / vue / uniapp
 * wechat mini program
 
-### 后端
+### 后端  / Backend
 
 * JAVA 17
 * gradle 
@@ -64,7 +65,7 @@
 * mybatis, mybatis-plus
 * auth0 jwt
 
-### 基础设施
+### 基础设施 / Infra
 * postgres 12
 * docker, docker compose
 
@@ -72,7 +73,7 @@
 * github workflow
 
 
-## 参与WeTalk开发
+## 贡献 / Contributing
 
 * 创建代码分支
 
@@ -89,18 +90,18 @@ git commit -m "请准确描述提交内容, 并squash多次commit"
 git push
 ```
 
-## 本地编译运行
+## 本地编译运行 / Localrun
 
 ### 前端
 
 ```text
-* 使用hbuilder程序导入wetalk
+* 使用hbuilder程序导入yourcourse
 * 右击wetalk，选择 publish-> Wechat Program
 * 打开微信小程序开发客户端
 * 导入小程序查看运行效果
 ```
 
-### 后端数据库设置
+### 后端数据库设置 
 
 进入API local， 执行如下脚本
 
@@ -119,15 +120,5 @@ ACTIVE_PROFILE=local ./gradlew bootRun
 
 ### 联系我
 
-* 了解项目细节
-* 学习软件编程开发
-* 学习开发和部署微信小程序
-* 学习JAVA和微服务开发
-* 学习部署程序到公有云上
-* 学习持续集成和持续部署
-* 学习公众演讲和英语表达
-* 学习俱乐部社区运营
-* 学习AI
-* 捐助这个开源项目
-
+不仅仅是技术，More than tech
 ![alt text](docs/image.png)
